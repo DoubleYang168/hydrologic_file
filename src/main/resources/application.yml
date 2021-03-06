@@ -1,0 +1,27 @@
+server:
+  port: 9090
+
+spring:
+  servlet:
+    multipart:
+      location: /home/hehai/files
+
+
+hehai:
+  file:
+    soil:
+      rootdir: soil-temperature2010-2016
+      hanjiang: hanjiang
+      huaihe: huaihe
+      huaihebengbu: huaihebengbu
+      weihe: weihe
+      ziyahe: ziyahe
+    evaporation:
+      rootdir: evaporation
+    rainfall:
+      rootdir: rainfall2010-2019
+      hanjiang: hanjiang
+      huaihe: huaihe
+      huaihebengbu: huaihebengbu
+      weihe: weihe
+      ziyahe: ziyahe
